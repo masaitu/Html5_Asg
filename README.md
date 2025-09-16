@@ -1,7 +1,7 @@
 # Html5_Asg
-This project is a pure HTML5 website built to demonstrate web development practices. The site does not use any CSS or JavaScript. The theme is centered around the exciting world of Formula 1.
+This project is a pure HTML5 website built to demonstrate web development practices. The site does not use any CSS or JavaScript. The theme centers on the exciting world of Formula 1.
 
-Live Site URL: https://your-username.github.io/your-repo-name/ (Remember to replace this with your actual URL)
+Live Site URL: https://masaitu.github.io/Html5_Asg/
 
 Page Demonstrations
 
