@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>HTML5 Practical - F1 Extras</title>
+    <meta name="description" content="Demonstrating advanced HTML5 elements like tables, details, and meters with a Formula 1 theme." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="https://example.com/extras.html" />
+</head>
+<body>
+    <a href="#main">Skip to content</a>
+    <header>
+        <h1>Welcome to the World of Formula 1</h1>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="extras.html" aria-current="page">Extras</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <article>
+            <header>
+                <h2>F1 Technical Details & Data</h2>
+                <p>Posted on: <time datetime="2025-09-13">September 13, 2025</time></p>
+            </header>
+
+            <!-- Section for the Table -->
+            <section>
+                <h3>Championship Standings Example</h3>
+                <p>The following table shows an example of the World Drivers' Championship standings, structured with full semantic HTML for accessibility.</p>
+                <table>
+                    <caption>2023 Drivers' Championship Top 3</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Position</th>
+                            <th scope="col">Driver</th>
+                            <th scope="col">Nationality</th>
+                            <th scope="col">Car</th>
+                            <th scope="col">Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Max Verstappen</td>
+                            <td>Netherlands</td>
+                            <td>Red Bull Racing Honda RBPT</td>
+                            <td>575</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Sergio Perez</td>
+                            <td>Mexico</td>
+                            <td>Red Bull Racing Honda RBPT</td>
+                            <td>285</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Lewis Hamilton</td>
+                            <td>United Kingdom</td>
+                            <td>Mercedes</td>
+                            <td>234</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row" colspan="4">Total Points for Top 3</th>
+                            <td>1094</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <!-- Section for Interactive Elements -->
+            <section>
+                <h3>Interactive F1 Elements</h3>
+                <p>These elements work without any JavaScript.</p>
+                
+                <!-- Details/Summary Element -->
+                <details>
+                    <summary>What is DRS (Drag Reduction System)?</summary>
+                    <p>DRS is an adjustable rear wing on a Formula 1 car that the driver can open to reduce aerodynamic drag, increasing top speed to promote overtaking. It can only be used in specific "DRS zones" on the track when a car is within one second of the car ahead.</p>
+                </details>
+
+                <!-- Dialog Element -->
+                <dialog open>
+                    <p><strong>Race Control Message:</strong> Track limits will be strictly monitored at Turn 4.</p>
+                    
+                </dialog>
+            </section>
+
+            <!-- Section for Progress & Meter -->
+            <section>
+                <h3>Live Race Data Simulators</h3>
+                <p>These elements demonstrate progress and measurement values.</p>
+
+                <!-- Progress Element -->
+                <p>
+                    <label for="race-progress">Race Lap Progress:</label>
+                    <progress id="race-progress" value="40" max="58">Lap 40 of 58</progress> 
+                    <span> (Lap 40/58)</span>
+                </p>
+
+                <!-- Meter Element -->
+                <p>
+                    <label for="tyre-wear">Front-Left Tyre Wear:</label>
+                    <meter id="tyre-wear" min="0" max="100" low="30" high="75" optimum="10" value="80">80% worn</meter>
+                    <span> (80% - Time to pit!)</span>
+                </p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; <time datetime="2025">2025</time> Henri Kiio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

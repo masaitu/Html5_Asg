@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>HTML5 Practical - Formula 1 Home</title>
+    <meta name="description" content="A pure-HTML5 site all about the thrilling world of Formula 1, demonstrating modern semantic elements and accessibility." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="https://example.com/" />
+</head>
+<body>
+    <a href="#main">Skip to content</a>
+    <header>
+        <h1>Welcome to the World of Formula 1</h1>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="extras.html">Extras</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <article>
+            <header>
+                <h2>The Pinnacle of Motorsport</h2>
+                <p>Posted on: <time datetime="2025-09-13">September 13, 2025</time></p>
+            </header>
+            <section>
+                <h3>Why MAX VERSTAPPEN is the Greatest Of All Time 'The GOAT'</h3>
+                <p>The video below shows just of the many iconic sportmanship shown by <mark>Verstappen</mark>, and how he obliterated the well known F1 champion Lewis Hamilton.</p>
+                <p>Drivers have access to systems like the <code>DRS</code> (Drag Reduction System) to aid in overtaking.</p>
+                <p>On some steering wheels, drivers press a button like <kbd>Overtake</kbd> to get a temporary power boost.</p>
+            <section>
+                <video controls width="640" poster="assets/images/monza-poster.jpg">
+                <!-- Provide different video formats for browser compatibility -->
+                <source src="assets/video/verstappen the GOAT_compressed.mp4" type="video/mp4">
+                <source src="assets/video/verstappen the GOAT_compressed.webm" type="video/webm">
+                <track 
+                    src="assets/captions/onboard-captions.vtt" 
+                    kind="captions" 
+                    srclang="en" 
+                    label="English" 
+                    default>
+                </track>
+
+                Sorry, your browser doesn't support embedded videos.
+                </video>
+            </section>
+            </section>          
+            <section>
+                <h3>Internal Page Navigation</h3>
+                <p>Jump to the section with a famous F1 quote using this internal link: <a href="#more-info">More F1 Info</a>.</p>
+            </section>
+            <section id="more-info">
+                <h3>The Most Iconic Sports Music</h3>
+                <p>The most Iconic Sports music Ever Shakira's Waka Waka themed for world cup of 2004</p>
+                
+            <section>
+                <h3>Iconic Team Radio</h3>
+                <p>Listen to a classic piece which can still be themed for Formula 1 team. The tension and strategy are palpable even in just the audio.</p>
+                
+                <audio controls>
+                    <source src="assets/audio/Waka Waka.mp3" type="audio/mpeg">
+            
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+                <p>The sport's governing body is the <abbr title="Fédération Internationale de l'Automobile">FIA</abbr>.</p>
+                <blockquote cite="https://www.ayrtonsenna.com.br/">
+                    <p>"If you no longer go for a gap that exists, you are no longer a racing driver."</p>
+                    <footer>— <cite>Ayrton Senna</cite></footer>
+                </blockquote>
+            </section>
+
+            <section>   
+                <figure>
+                <picture>
+                    <source srcset="assets/images/large.jpg" media="(min-width: 1000px)">
+                    <source srcset="assets/images/medium.jpg" media="(min-width: 600px)">
+                    <img src="assets/images/small.jpg" alt="Max Verstappen kicking the tire of his Red Bull F1 car after a crash">
+                </picture>
+                <figcaption>A responsive image of an F1 car using the <code>&lt;picture&gt;</code> element.</figcaption>
+                </figure>
+            </section>
+            <aside aria-label="Side notes">
+                <h4>Did you know?</h4>
+                <p>The first Formula 1 World Championship was held in <time datetime="1950">1950</time> at Silverstone.</p>
+            </aside>
+            <footer>
+                <address>
+                    Contact the F1 Fan Hub: <a href="mailto:fan@example-f1.com">fan@example-f1.com</a><br>
+                    Monza, Italy
+                </address>
+            </footer>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; <time datetime="2025">2025</time> Henri Kiio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
